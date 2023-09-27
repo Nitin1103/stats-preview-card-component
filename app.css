@@ -15,8 +15,8 @@
 
 .container {
     background-color: hsl(244, 38%, 16%);
-    width: 70%;
-    height: 25rem;
+    width: 64%;
+    height: 24rem;
     border-radius: 0.5rem;
     display: flex;
 }
@@ -30,10 +30,9 @@
 }
 
 .sbox {
-
     width: 50%;
     background: linear-gradient(rgba(168, 88, 218, 0.6), rgba(168, 88, 218, 0.6)), url("images/image-header-desktop.jpg");
-    background-position: cover;
+    filter: contrast(150%) brightness(70%);
 }
 
 .pbox-inner1 {
