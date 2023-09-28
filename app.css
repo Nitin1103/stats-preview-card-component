@@ -70,6 +70,19 @@ span {
     font-family: 'Inter', sans-serif;
 }
 
+.pbox-3 .statbig {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.pbox-3 .statsmall {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
 /* responsive */
 @media (max-width:376px) {
     .outer {
@@ -77,15 +90,25 @@ span {
     }
 
     .container {
+        margin: 20rem 2rem 5rem 2rem;
         width: 85%;
         height: auto;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
     }
 
     .pbox {
         width: 100%;
         padding: 1.4rem;
         align-items: center;
+    }
+
+    .sbox {
+        width: 100%;
+        height: 14rem;
+        background: linear-gradient(rgba(168, 88, 218, 0.6), rgba(168, 88, 218, 0.6)), url("images/image-header-desktop.jpg");
+        background-size: cover;
+        filter: contrast(150%) brightness(70%);
     }
 
     .pbox-inner1 {
