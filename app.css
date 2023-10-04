@@ -87,6 +87,7 @@ span {
 @media (max-width:376px) {
     .outer {
         overflow-y: scroll;
+
     }
 
     .container {
